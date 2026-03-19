@@ -97,7 +97,6 @@ Este arquivo HTML é um estudo completo sobre **formulários em HTML5**. Explore
 
 <!-- URL -->
 <input type="url"/>
-```
 
 ```
 ## 👨‍💻 Autor
