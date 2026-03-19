@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>Uso de formulário</h1>
+        <form method="GET" action="grava.php">
+            <fieldset>
+
+                <legend>Dados Pessoais:</legend>
+                Nome: <input type="text" id="nome" name="none" size="50" maxlength="20" placeholder="Digite o nome completo" autofocus/>
+                <br>
+                Senha: <input type="password" id="nome" name="none" size="50" maxlength="20" placeholder="Digite o nome completo" autofocus/>
+                <br>
+
+                Escolha um carro: <select id="carros" name="carros">
+                    <option value="volvo">Volvo</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br>
+                <br>
+
+                <input type="radio" name="genero" value="feminino">Feminino
+                <br>
+                <input type="radio" name="genero" value="masculino">Masculino
+                <br>
+                <input type="radio" name="genero" value="Outro">Outro
+                <br>
+                <input type="hidden" name="exemplo" value="valor">
+                <br>
+                <br>
+
+                Quais esportes você pratica?
+                <input type="checkbox" name="esporte1" value="atletismo">Atletismo
+                <input type="checkbox" name="esporte2" value="basquete">Basquete
+                <input type="checkbox" name="esporte3" value="futebol">Futebol
+                <input type="checkbox" name="esporte4" value="natação">Natação
+                <br>
+                <br>
+
+                <textarea name="mensagem" cols="60" rows="10">
+                    Escreva a mensagem.
+                </textarea>
+                <br>
+                <br>
+
+                <p><label for="escolha_cor"> Cor : </label><input type="color" id="escolha_cor" name="escolha_cor" /></p>
+                <p><label for="inicio"> Início : </label><input type="date"  id ="inicio" name="inicio" min="2011-01-01"/></p>
+                <p><label for="palestra"> Palestra : </label><input type="datetime" id="palestra" name="palestra"/></p>
+                <p><label for="concerto"> Concerto : </label><input type="datetime-local" id="concerto" name="concerto"/></p>
+                <p><label for="seuemail"> Email : </label><input type="email" id="seuemail" name="seuemail" required/></p>
+                <p><label for="ferias"> Férias: </label><input type="month" id="ferias" name="ferias"/></p>
+                <p><label for="musicas"> Músicas : </label><input type="number" id="musicas" name="musicas" min="2" max="8"/></p>
+                <p><label for="altitude"> Altitude : </label><input type="range" id="altitude" name="altitude" min="100" max="1000" step="100"/></p>
+                <p><label for="busca"> Busca : </label><input type="search" id="busca" name="busca" placeholder="pesquisar..."/></p>
+                <p><label for="telefone"> Telefone: </label><input type="tel" id="telefone" name="telefone"/></p>
+                <p><label for="horario"> Horário : </label><input type="time" id="horario" name="horario"/></p>
+                <p><label for="site"> Site : </label><input type="url" id="site" name="site"/></p>
+                <p><label for="semana"> Semana : </label><input type="week" id="semana" name="semana"/><p>
+                <br>
+                
+                <input type="submit" value="Enviar">
+                <br>
+                </fieldset>
+        </form>
+    </body>
+    
+</html>
