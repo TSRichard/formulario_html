@@ -65,17 +65,18 @@ Este arquivo HTML é um estudo completo sobre **formulários em HTML5**. Explore
 <textarea name="mensagem" cols="60" rows="10">
     Escreva a mensagem.
 </textarea>
-
+```
 ### 📅 Campos de Data e Hora
-
+```html
 <input type="date" min="2011-01-01"/>
 <input type="datetime"/>
 <input type="datetime-local"/>
 <input type="month"/>
 <input type="time"/>
 <input type="week"/>
-
+```
 ### 🎨 Campos Especiais
+```html
 <!-- Cor -->
 <input type="color"/>
 
@@ -96,7 +97,7 @@ Este arquivo HTML é um estudo completo sobre **formulários em HTML5**. Explore
 
 <!-- URL -->
 <input type="url"/>
-
+```
 
 ```
 ## 👨‍💻 Autor
